@@ -1,0 +1,31 @@
+.card-largura{
+   max-width: 18rem;
+}
+
+.imagem-carrosel{
+    /*como a imagem deve se comportar dentro do container*/
+    object-fit:cover;
+
+    /*movimenta a imagem no seu eixo Y e X*/
+    object-position:0 80%;
+    height: 400px;
+
+}
+
+.fonte-titulo{
+    font-family: 'Pacifico', cursive;
+}
+
+.cor-especial{
+    /*important tem que ser usado com muita cautela.*/
+    color: darkred!important;
+}
+
+.botao-cor-especial{
+    background-color: darkred;
+    color:white;
+}
+
+.borda-cor-especial{
+    border-color: darkred;
+}
